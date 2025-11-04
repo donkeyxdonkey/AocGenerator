@@ -7,7 +7,7 @@ internal class Program
     {
         int advent = 1;
         bool test = false;
-        RunFlag flag = RunFlag.Part2;
+        RunFlag flag = RunFlag.All;
 
         switch (advent)
         {
