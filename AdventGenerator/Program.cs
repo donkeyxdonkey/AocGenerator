@@ -27,9 +27,9 @@ internal class Program
 
         string tail = "\r\n{\r\n" +
             "\tprivate static int[] input = [];\r\n\r\n" +
-            "\tinternal static void Run(bool test, RunFlag flag)\r\n" +
+            "\tinternal static void Run(bool test, RunFlag flag, int val)\r\n" +
             "\t{\r\n" +
-            "\t\tinput = Utility.ReadInput(test, 1).ConvertTo<int>();\r\n\r\n" +
+            "\t\tinput = Utility.ReadInput(test, val).ConvertTo<int>();\r\n\r\n" +
             "\t\tif (flag is RunFlag.All or RunFlag.Part1)\r\n" +
             "\t\t\tPart1();\r\n\r\n" +
             "\t\tif (flag is RunFlag.All or RunFlag.Part2)\r\n" +
