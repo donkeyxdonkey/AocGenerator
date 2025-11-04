@@ -57,3 +57,4 @@ dkms.conf
 /.vs
 /AdventGenerator/obj
 /AdventOfCode/obj
+/AdventOfCode2025/obj
