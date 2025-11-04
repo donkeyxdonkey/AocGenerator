@@ -58,3 +58,4 @@ dkms.conf
 /AdventGenerator/obj
 /AdventOfCode/obj
 /AdventOfCode2025/obj
+/AdventUtility/obj
