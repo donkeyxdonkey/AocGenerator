@@ -59,3 +59,6 @@ dkms.conf
 /AdventOfCode/obj
 /AdventOfCode2025/obj
 /AdventUtility/obj
+/AdventGenerator/bin/Debug/net9.0
+/AdventOfCode2025/Input
+/AdventOfCode2025/Test

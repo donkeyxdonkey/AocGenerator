@@ -1,4 +1,5 @@
 ﻿using AdventOfCode2025;
+using AdventOfCode2025.Advent;
 
 internal class Program
 {

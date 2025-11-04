@@ -22,8 +22,8 @@ internal class Program
         Directory.CreateDirectory(inputPath);
         Directory.CreateDirectory(testPath);
 
-        string head = "namespace AdventOfCode" + year.ToString() + ".Advent;\r\n\r\n" +
-            "internal class Advent";
+        string head = "using AdventUtility;\r\n\r\nnamespace AdventOfCode" + year.ToString() + ".Advent;\r\n\r\n" +
+            "internal class ";
 
         string tail = "\r\n{\r\n" +
             "\tprivate static int[] input = [];\r\n\r\n" +
@@ -46,7 +46,7 @@ internal class Program
             "}\r\n"
             ;
 
-        StringBuilder projInject = new("<ItemGroup>\r\n  <ItemGroup>\r\n    <ProjectReference Include=\"..\\AdventUtility\\AdventUtility.csproj\" />\r\n  </ItemGroup>");
+        StringBuilder projInject = new("  <ItemGroup>\r\n    <ProjectReference Include=\"..\\AdventUtility\\AdventUtility.csproj\" />\r\n  </ItemGroup>\r\n  <ItemGroup>\r\n");
 
         bool inject = false;
 
